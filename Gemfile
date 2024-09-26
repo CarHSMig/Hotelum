@@ -60,10 +60,7 @@ gem "jsonapi-serializer"
 # sendo útil para filtrar dados em views ou construir interfaces de busca.
 gem "ransack"
 
-
 gem "bcrypt"
-
-gem "devise"
 
 gem "jwt"
 
