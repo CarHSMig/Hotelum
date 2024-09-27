@@ -2,7 +2,6 @@ class UsersController < ApplicationController
   # GET /users
   def index
     @users = User.all
-
     render json: @users
   end
 
@@ -28,6 +27,8 @@ class UsersController < ApplicationController
       render json: { error: @user.errors.full_messages }, status: :unprocessable_entity
     end
   end
+
+
 
   private
     # Use callbacks to share common setup or constraints between actions.

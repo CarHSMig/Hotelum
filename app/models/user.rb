@@ -31,9 +31,3 @@ class User < ApplicationRecord
     end
   end
 end
-
-    t.string "name"
-    t.string "email"
-    t.string "cep"
-    t.string "phone"
-    t.date "birth_date"
